@@ -36,6 +36,10 @@ pandas의 `Series`/`DataFrame` 기본 사용법부터 결측치 처리, 중복 �
 
 `data/`에 있는 CSV 파일로 이번 정리 작업 중 전 노트북을 재실행하여 검증했습니다. 시각화가 포함된 노트북의 결과 그래프는 `images/`에 저장했습니다.
 
+> 처음 재실행했을 때는 그래프의 한글(축 라벨 등)이 정리 작업 환경에 원본에서 쓰인 한글 폰트가 없어 네모(□)로 깨져 나왔습니다. 이후 한글을 지원하는 폰트로 다시 렌더링해 `images/`의 이미지를 전부 교체했습니다.
+
+`09_data_cleaning_assessment_temperature1_retry.ipynb`는 코드에서 직접 `plt.savefig("./images/bar_point_chat.jpg", ...)`로 그래프를 저장하고 있어, 다른 노트북들과 달리 `images/`에 번호가 아닌 `bar_point_chat.jpg`라는 이름으로 결과가 저장되어 있습니다.
+
 ### 대표 결과
 
 ![연도별 개점 현황](images/11_business_data_cleaning_assignment_v1_01.png)
